@@ -1,38 +1,34 @@
 <html>
-    <form>
-        <label for="name">User Name:</label>
-        <input type="text"id="name"name="name">
-        <br/>
-        <label for="reg no">User Regno:</label>
-        <input type="text"id="reg no"reg no="reg no">
-        <br/>
-        <p>Choose Your Branch:</p>
-        <input type="radio" id="CSE" name="Branch" value="CSE">
-        <label for="CSE">CSE</label><br>
-        <input type="radio" id="CST" name="Branch" value="CST">
-        <label for="CST">CST</label><br>
-        <input type="radio" id="CSM" name="Branch" value="CSM">
-        <label for="CSM">CSM</label><br>
-        <p>Select Language:</p>
-        <input type="checkbox" id="Language" name="Language" value="Telugu">
-        <label for="Language"> Telugu</label><br>
-        <input type="checkbox" id="Language" name="Language" value="Engilsh">
-        <label for="Language"> English</label><br>
-        <input type="checkbox" id="Language" name="Language" value="Hindi">
-        <label for="language"> Hindi</label><br>
-        <label for="State">Select Your State:</label>
-        <select name="State" id="State">
-            <option value="Andhra Pradesh">Andhra Pradesh</option> 
-            <option value="Bihar">Bihar</option>
-            <option value="Goa">Goa</option> 
-            <option value="Assam">Assam</option>
-            <option value="Telengana">Telangana</option>  
-            <option value="Jammu Kashmir">Jammu Kashmir</option>
-            <option value="Uttar Pradesh">Uttar Pradesh</option>
-            <option value="Tamilnadu">Tamilnadu</option>
-        </select><br/>
-        <p>Add Your Comments:</p>
-        <textarea name="message" rows="5" cols="15"></textarea><br/>
-        <input type="Submit" value="Submit">
-    </form>
+    <head>
+        <title>Student Form</title>
+    </head>
+    <body>
+        <h1>Student Form</h1>
+        <form>
+            <p>Username: <input type="text" placeholder="Must be capitel letters"></p>
+            <p>Village: <input type="text"></p>
+            <p>Register no: <input type="text"></p>
+            <p>Choose your branch:</p>
+            <p>CSE <input type="radio" value="x"></p>
+            <p>CST <input type="radio" value="x"></p>
+            <p>CSM <input type="radio" value="x"></p>
+            <p>ECE <input type="radio" value="x"></p>
+            <p>EEE <input type="radio" value="x"></p>
+            <p>MECH <input type="radio" value="x"></p>
+            <p>do you have any backlogs:<input type="checkbox"></p>
+            <p>Select any two languages:</p>
+            <p>English <input type="checkbox" checked></p>
+            <p>Telugu <input type="checkbox" ></p>
+            <p>Hindi <input type="checkbox" ></p>
+            <p>Select your state:</p>
+            <select>
+                <option>Andhra Pradesh</option>
+                <option>Telangana</option>
+                <option>Madhya pradesh</option>
+            </select>
+            <p>Add your comments:</p>
+            <p><input type="text"></p>
+            <p><input type="submit"></p>
+        </form>
+    </body>
 </html>
